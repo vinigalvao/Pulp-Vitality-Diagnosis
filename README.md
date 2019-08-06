@@ -129,7 +129,7 @@ para teste, é feito isso para cada um dos subconjuntos.
 
 Foram testados os modelos: 
 
-- K-Nearest Neighbor (KNN),  variando o parâmetro do número de vizinhos k, de 1 a 9;
+- K-Nearest Neighbor (KNN),  variando o parâmetro do número de vizinhos k, de 1 a 10;
 - Decision Tree,  variando o parâmetro da profundidade da árvore de 2 a 10;
 - Random Forest,  variando o número de árvores de decisão entre 20, 50, 80 e 100;
 - Support Vector Machine (SVM), variando o parâmetro do kernel entre rbf, linear, grau 2, 3, 4 e 5.  Por se tratar de um
