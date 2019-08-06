@@ -113,13 +113,6 @@ infravermelhas tanto por parte da água quanto por parte dos tecidos moles.  Al�
 disso, essa é a região menos afetada no processo de degradação pulpar, onde
 nenhuma variação espectral fica claramente evidenciada, exceto pelas diferentes intensidades de reflexão.
 
-Outra normalização testada foi uma normalização simples,
-onde as intensidades dos espectros ficam entre 0 e 1. 
-
-Essas normalizações
-permitem analisar os dados de forma qualitativa, onde o comportamento espectral é
-comparado a uma referência.
-
 ### Seleção de Atributos
 
 O método de seleção de atributos testado foi o Univariate Statistcs, que
