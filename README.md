@@ -156,7 +156,7 @@ configuração de cada classificador.
 
 A imagem abaixo apresenta o resultado da PCA sobre esse conjunto de dados.
 
-![][(ttps://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/PCA.png)
+![][(https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/PCA.png)
 
 A PCA não produziu os resultados esperados, sendo pouco eficiente para
 separar as amostras, consequentemente, resultando em piores resultados em
@@ -180,7 +180,7 @@ As figuras abaixo apresentam as acurácias do modelo em função do número de v
 
 ![](https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/KNN1.png)
 
-()[img matriz de confusão knn]
+![](https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/KNN.JPG)
 
 - Decision Tree
 
@@ -191,20 +191,20 @@ alcançando uma acurácia de aproximadamente 92% para uma profundidade de 2 e
 
 As figuras abaixo apresenta as acurácias para cada modelo testado e a matriz de confusão do melhor resultado.
 
-()[img acurácia decision tree]
+![](https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/%C3%81rvores%20de%20decis%C3%A3o.png)
 
-()[img matriz de confusão decision tree]
+![](https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/Tree.JPG)
 
 A próxima imagem apresenta a estrutura da árvore de decisão utilizada para classificar as
 amostras. Os comprimentos de onda de maior relevância foram 960.5 nm, 1382.3
 nm, 1412 nm e 1518.9 nm.
 
-()[img da árvore de decisão]
+![](https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/dentetree.png)
 
 A figura abaixo apresenta os atributos mais importantes utilizados pela árvore de
 decisão e seu índice de relevância, sendo representado em uma escala de 0 à 1. 
 
-()[Indice de relevância dos atributos utilizados na árvore de decisão.]
+![](https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/feature_importances.png)
 
 - Random Forest
 
@@ -215,9 +215,9 @@ aproximadamente 96% com 100 árvores.
 
 As figuras abaixo apresenta as acurácias para cada modelo testado e a matriz de confusão do melhor resultado.
 
-()[img acurácia Random Forest]
+![](https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/RF.jpeg)
 
-()[img matriz de confusão Random forest]
+![](https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/Forest.JPG)
 
 - Support Vector Machine (SVM)
 
@@ -228,9 +228,9 @@ uma acurácia de aproximadamente 98%.
 
 As figuras abaixo apresenta as acurácias para cada modelo testado e a matriz de confusão do melhor resultado.
 
-()[img acurácia SVM]
+![]()[https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/Forest.JPG]
 
-()[img matriz de confusão SVM]
+![]()[https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/NB.JPG]
 
 - Naive Bayes
 
@@ -241,9 +241,9 @@ aproximadamente 98%.
 
 As figuras abaixo apresenta as acurácias para cada modelo testado e a matriz de confusão do melhor resultado.
 
-()[img acurácia Naive bayes]
+![]()[https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/NB.PNG]
 
-()[img matriz de confusão Naive Bayes]
+![]()[https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/NB.JPG]
 
 - MLPClassifier
 
@@ -254,9 +254,9 @@ aproximadamente 98%.
 
 As figuras abaixo apresenta as acurácias para cada modelo testado e a matriz de confusão do melhor resultado.
 
-()[img acurácia mlp]
+![](https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/mlp.PNG)
 
-()[img matriz de confusão mlp]
+![](https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/mlp.JPG)
 
 # Melhores resultados
 
@@ -266,7 +266,7 @@ instâncias SMOTE e a a técnica de seleção de atributos Univariate Statistics
 configurado para selecionar 30% dos atributos de entrada, ou seja 30% dos
 comprimentos de onda.
 
-()[tabela com melhores resultados]
+![](https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/tabela.PNG)
 
 # Conclusão
 
