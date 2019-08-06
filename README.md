@@ -50,7 +50,7 @@ As diferenças observadas entre os grupos podem ser explicadas como possíveis
 consequências da degradação pulpar, que leva a polpa a um processo de
 compressão física e a um estrangulamento do fluxo vascular.
 
-[](imagem dos espectros)
+![](https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/espectros.PNG)
 
 Com isso, o dataset é formado pela entrada de 504 atributos, onde cada atributo
 corresponde a intensidade de um comprimento de onda, e a saída correspondendo
@@ -156,7 +156,7 @@ configuração de cada classificador.
 
 A imagem abaixo apresenta o resultado da PCA sobre esse conjunto de dados.
 
-()[colocar imagem do pca]
+![][(ttps://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/PCA.png)
 
 A PCA não produziu os resultados esperados, sendo pouco eficiente para
 separar as amostras, consequentemente, resultando em piores resultados em
@@ -167,7 +167,7 @@ desse conjunto de dados, como mostra a figura abaixo, e consequentemente, foi
 a técnica que resultou nos melhores resultados em relação ao desempenho dos
 classificadores.
 
-()[coloca imagem do lda]
+![](https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/LDA.png)
 
 - K-Nearest Neighbor (KNN)
 
@@ -178,7 +178,7 @@ aproximadamente 96% para K igual a 2, 5, 6, 8 e 9.
 
 As figuras abaixo apresentam as acurácias do modelo em função do número de vizinhos, K e a matriz de confusão do melhor resultado.
 
-()[img acurácia KNN]
+![](https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/KNN1.png)
 
 ()[img matriz de confusão knn]
 
