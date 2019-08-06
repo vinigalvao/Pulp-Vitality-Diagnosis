@@ -20,7 +20,7 @@ polpas com status de sadias
 
 A figura abaixo apresenta o passo a passo da metodologia utilizada para realizar esse projeto.
 
-![](colocar imagem do diagrama com o passo a passo)
+![](Imagens/passo a passo.PNG)
 
 Os espectros foram coletados por duas dentistas durante seus mestrados em
 engenharia biomédica. 
