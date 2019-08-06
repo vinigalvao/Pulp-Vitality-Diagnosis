@@ -156,7 +156,7 @@ configuração de cada classificador.
 
 A imagem abaixo apresenta o resultado da PCA sobre esse conjunto de dados.
 
-![][(https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/PCA.png)
+![](https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/PCA.png)
 
 A PCA não produziu os resultados esperados, sendo pouco eficiente para
 separar as amostras, consequentemente, resultando em piores resultados em
@@ -228,9 +228,9 @@ uma acurácia de aproximadamente 98%.
 
 As figuras abaixo apresenta as acurácias para cada modelo testado e a matriz de confusão do melhor resultado.
 
-![]()[https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/Forest.JPG]
+![](https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/Forest.JPG)
 
-![]()[https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/NB.JPG]
+![](https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/NB.JPG)
 
 - Naive Bayes
 
@@ -241,9 +241,9 @@ aproximadamente 98%.
 
 As figuras abaixo apresenta as acurácias para cada modelo testado e a matriz de confusão do melhor resultado.
 
-![]()[https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/NB.PNG]
+![](https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/NB.PNG)
 
-![]()[https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/NB.JPG]
+![](https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/NB.JPG)
 
 - MLPClassifier
 
