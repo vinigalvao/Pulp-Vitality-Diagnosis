@@ -20,7 +20,7 @@ polpas com status de sadias
 
 A figura abaixo apresenta o passo a passo da metodologia utilizada para realizar esse projeto.
 
-![](Imagens/passo a passo.PNG)
+![](https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/passo%20a%20passo.PNG)
 
 Os espectros foram coletados por duas dentistas durante seus mestrados em
 engenharia biomédica. 
