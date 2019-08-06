@@ -1,5 +1,4 @@
 # Inteligência artificial no auxílio do diagnóstico da vitalidade pulpar
-Análise de espectros de refletância difusa no infravermelho próximo para discriminação de tecidos pulpares humanos sadios e patológicos
 
 No cotidiano da clínica odontológica, a informação da vitalidade da polpa
 dental é de grande relevância para que o paciente venha a ter o direcionamento do
