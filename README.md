@@ -210,7 +210,7 @@ As figuras abaixo apresenta as acurácias para cada modelo testado e a matriz de
 
 ![](https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/RF.jpeg)
 
-![](https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/Forest.JPG)
+![](https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/Matriz_RF_certa.png)
 
 - Support Vector Machine (SVM)
 
