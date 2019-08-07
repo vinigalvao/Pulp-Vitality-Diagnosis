@@ -20,7 +20,7 @@ polpas com status de sadias
 
 A figura abaixo apresenta o passo a passo da metodologia utilizada para realizar esse projeto.
 
-![](colocar imagem do diagrama com o passo a passo)
+![](https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/passo%20a%20passo.PNG)
 
 Os espectros foram coletados por duas dentistas durante seus mestrados em
 engenharia biomédica. 
@@ -50,7 +50,7 @@ As diferenças observadas entre os grupos podem ser explicadas como possíveis
 consequências da degradação pulpar, que leva a polpa a um processo de
 compressão física e a um estrangulamento do fluxo vascular.
 
-[](imagem dos espectros)
+![](https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/espectros.PNG)
 
 Com isso, o dataset é formado pela entrada de 504 atributos, onde cada atributo
 corresponde a intensidade de um comprimento de onda, e a saída correspondendo
@@ -113,13 +113,6 @@ infravermelhas tanto por parte da água quanto por parte dos tecidos moles.  Al�
 disso, essa é a região menos afetada no processo de degradação pulpar, onde
 nenhuma variação espectral fica claramente evidenciada, exceto pelas diferentes intensidades de reflexão.
 
-Outra normalização testada foi uma normalização simples,
-onde as intensidades dos espectros ficam entre 0 e 1. 
-
-Essas normalizações
-permitem analisar os dados de forma qualitativa, onde o comportamento espectral é
-comparado a uma referência.
-
 ### Seleção de Atributos
 
 O método de seleção de atributos testado foi o Univariate Statistcs, que
@@ -136,7 +129,7 @@ para teste, é feito isso para cada um dos subconjuntos.
 
 Foram testados os modelos: 
 
-- K-Nearest Neighbor (KNN),  variando o parâmetro do número de vizinhos k, de 1 a 9;
+- K-Nearest Neighbor (KNN),  variando o parâmetro do número de vizinhos k, de 1 a 10;
 - Decision Tree,  variando o parâmetro da profundidade da árvore de 2 a 10;
 - Random Forest,  variando o número de árvores de decisão entre 20, 50, 80 e 100;
 - Support Vector Machine (SVM), variando o parâmetro do kernel entre rbf, linear, grau 2, 3, 4 e 5.  Por se tratar de um
@@ -156,7 +149,7 @@ configuração de cada classificador.
 
 A imagem abaixo apresenta o resultado da PCA sobre esse conjunto de dados.
 
-()[colocar imagem do pca]
+![](https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/PCA.png)
 
 A PCA não produziu os resultados esperados, sendo pouco eficiente para
 separar as amostras, consequentemente, resultando em piores resultados em
@@ -167,7 +160,7 @@ desse conjunto de dados, como mostra a figura abaixo, e consequentemente, foi
 a técnica que resultou nos melhores resultados em relação ao desempenho dos
 classificadores.
 
-()[coloca imagem do lda]
+![](https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/LDA.png)
 
 - K-Nearest Neighbor (KNN)
 
@@ -178,9 +171,9 @@ aproximadamente 96% para K igual a 2, 5, 6, 8 e 9.
 
 As figuras abaixo apresentam as acurácias do modelo em função do número de vizinhos, K e a matriz de confusão do melhor resultado.
 
-()[img acurácia KNN]
+![](https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/KNN1.png)
 
-()[img matriz de confusão knn]
+![](https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/KNN.JPG)
 
 - Decision Tree
 
@@ -191,20 +184,20 @@ alcançando uma acurácia de aproximadamente 92% para uma profundidade de 2 e
 
 As figuras abaixo apresenta as acurácias para cada modelo testado e a matriz de confusão do melhor resultado.
 
-()[img acurácia decision tree]
+![](https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/%C3%81rvores%20de%20decis%C3%A3o.png)
 
-()[img matriz de confusão decision tree]
+![](https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/Tree.JPG)
 
 A próxima imagem apresenta a estrutura da árvore de decisão utilizada para classificar as
 amostras. Os comprimentos de onda de maior relevância foram 960.5 nm, 1382.3
 nm, 1412 nm e 1518.9 nm.
 
-()[img da árvore de decisão]
+![](https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/dentetree.png)
 
 A figura abaixo apresenta os atributos mais importantes utilizados pela árvore de
 decisão e seu índice de relevância, sendo representado em uma escala de 0 à 1. 
 
-()[Indice de relevância dos atributos utilizados na árvore de decisão.]
+![](https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/feature_importances.png)
 
 - Random Forest
 
@@ -215,9 +208,9 @@ aproximadamente 96% com 100 árvores.
 
 As figuras abaixo apresenta as acurácias para cada modelo testado e a matriz de confusão do melhor resultado.
 
-()[img acurácia Random Forest]
+![](https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/RF.jpeg)
 
-()[img matriz de confusão Random forest]
+![](https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/Forest.JPG)
 
 - Support Vector Machine (SVM)
 
@@ -228,9 +221,9 @@ uma acurácia de aproximadamente 98%.
 
 As figuras abaixo apresenta as acurácias para cada modelo testado e a matriz de confusão do melhor resultado.
 
-()[img acurácia SVM]
+![](https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/SVM.PNG)
 
-()[img matriz de confusão SVM]
+![](https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/NB.JPG)
 
 - Naive Bayes
 
@@ -241,9 +234,9 @@ aproximadamente 98%.
 
 As figuras abaixo apresenta as acurácias para cada modelo testado e a matriz de confusão do melhor resultado.
 
-()[img acurácia Naive bayes]
+![](https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/NB.PNG)
 
-()[img matriz de confusão Naive Bayes]
+![](https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/NB.JPG)
 
 - MLPClassifier
 
@@ -254,9 +247,9 @@ aproximadamente 98%.
 
 As figuras abaixo apresenta as acurácias para cada modelo testado e a matriz de confusão do melhor resultado.
 
-()[img acurácia mlp]
+![](https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/mlp.PNG)
 
-()[img matriz de confusão mlp]
+![](https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/mlp.JPG)
 
 # Melhores resultados
 
@@ -266,7 +259,7 @@ instâncias SMOTE e a a técnica de seleção de atributos Univariate Statistics
 configurado para selecionar 30% dos atributos de entrada, ou seja 30% dos
 comprimentos de onda.
 
-()[tabela com melhores resultados]
+![](https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/tabela.PNG)
 
 # Conclusão
 
