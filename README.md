@@ -221,7 +221,7 @@ uma acurácia de aproximadamente 98%.
 
 As figuras abaixo apresenta as acurácias para cada modelo testado e a matriz de confusão do melhor resultado.
 
-![](https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/SVM.PNG)
+![](https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/SVM_nova.png)
 
 ![](https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/NB.JPG)
 
@@ -234,7 +234,7 @@ aproximadamente 98%.
 
 As figuras abaixo apresenta as acurácias para cada modelo testado e a matriz de confusão do melhor resultado.
 
-![](https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/NB.PNG)
+![](https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/NB_nova.png)
 
 ![](https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/NB.JPG)
 
@@ -247,7 +247,7 @@ aproximadamente 98%.
 
 As figuras abaixo apresenta as acurácias para cada modelo testado e a matriz de confusão do melhor resultado.
 
-![](https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/mlp.PNG)
+![](https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/MLP_nova.png)
 
 ![](https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/mlp.JPG)
 
