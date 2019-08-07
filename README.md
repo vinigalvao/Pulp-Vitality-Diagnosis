@@ -208,7 +208,7 @@ aproximadamente 96% com 100 árvores.
 
 As figuras abaixo apresenta as acurácias para cada modelo testado e a matriz de confusão do melhor resultado.
 
-![](https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/RF.jpeg)
+![](https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/RF_nova.png)
 
 ![](https://github.com/viniciusgalvaoia/Pulp-Vitality-Diagnosis/blob/master/Imagens/Matriz_RF_certa.png)
 
